@@ -1,0 +1,22 @@
+schema_version: "1.0"
+
+extension:
+  id: "confluence"
+  name: "Spec Confluence"
+  version: "1.0.0"
+  description: "Integrates the pre-implementation steps into a Confluence doc"
+  author: "Aaron Sun"
+  repository: "https://github.com/aaronrsun/spec-kit-confluence"
+  license: "MIT"
+
+requires:
+  speckit_version: ">=0.1.0"
+
+provides:
+  commands:
+    - name: "speckit.confluence.writetoconfluence"
+      file: "commands/writetoconfluence.md"
+      description: "Write pre-implementation steps to Confluence doc"
+
+tags:
+  - "confluence"

@@ -11,7 +11,7 @@ After completing the specify and plan phases, create design doc in the location 
 
 ## Command Template
 ```
-/speckit.confluence.writetoconfluence [confluence_url]
+/speckit.confluence.write [confluence_url]
 ```
 
 ## Notes

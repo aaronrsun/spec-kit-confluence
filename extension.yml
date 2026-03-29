@@ -14,8 +14,8 @@ requires:
 
 provides:
   commands:
-    - name: "speckit.confluence.writetoconfluence"
-      file: "commands/writetoconfluence.md"
+    - name: "speckit.confluence.write"
+      file: "commands/write.md"
       description: "Write pre-implementation steps to Confluence doc"
 
 tags:

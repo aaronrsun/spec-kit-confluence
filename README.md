@@ -22,10 +22,10 @@
 	This will configure the MCP server for Confluence access.
 
 ## Usage and Functionality
-After completing the specify and plan phases, run the `writetoconfluence` command. Be sure to include the URL to where you want the doc to be so the agent knows to write the doc there.
+After completing the specify and plan phases, run the `write` command. Be sure to include the URL to where you want the doc to be so the agent knows to write the doc there.
 
 ```
-/speckit.confluence.writetoconfluence [confluence_url]
+/speckit.confluence.write [confluence_url]
 ```
 
 The agent will:
@@ -36,7 +36,7 @@ The agent will:
 ## Notes
 - The agent will use the MCP server to access Confluence. Ensure the MCP server is configured and running.
 - The document will **not** simply copy all content verbatim; it will summarize and rephrase for clarity.
-- For more details, see [commands/writetoconfluence.md](commands/writetoconfluence.md).
+- For more details, see [commands/write.md](commands/write.md).
 
 ## License
 MIT

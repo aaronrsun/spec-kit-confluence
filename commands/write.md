@@ -4,7 +4,7 @@ description: Automatically summarize and consolidate all relevant content genera
 ---
 
 ## Usage and Functionality
-After completing the specify and plan phases, create design doc in the location of the provided URL. It will create a design document in Confluence, accessible to your team. Be sure to include the URL to where you want the doc to be. If inital prompt did not provide any URL, ask for one. If the provided URL is an invalid Atlassian Confluence URL, ask the user for a valid one.
+After completing the specify and plan phases, create a doc summarizing them in Confluence. If inital prompt did not provide any URL or provided one that does not lead to Atlassian Confluence, ask for valid one.
 
 ## Parameters
 - **confluence_url** (string, required): the URL to where the doc will be stored

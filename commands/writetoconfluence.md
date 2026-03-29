@@ -3,22 +3,15 @@ title: Write to Confluence
 description: Automatically summarize and consolidate all relevant content generated before the task and implementation phases (specifically, specify and plan) into a single, well-structured Confluence document. The agent will select and synthesize the most important information for clarity and conciseness, not simply copy everything verbatim.
 ---
 
-## Usage
-Use this command after completing your planning, requirements gathering, and design discussions (before implementation begins). It will create a design document in Confluence, accessible to your team.
+## Usage and Functionality
+After completing the specify and plan phases, create design doc in the location of the provided URL. It will create a design document in Confluence, accessible to your team. Be sure to include the URL to where you want the doc to be. If inital prompt did not provide any URL, ask for one. If the provided URL is an invalid Atlassian Confluence URL, ask the user for a valid one.
 
 ## Parameters
-- **confluenceSpace** (string, required): The Confluence space key where the document will be created.
-- **parentPageId** (string, optional): The parent page ID under which the new document will be created.
-- **title** (string, required): The title of the Confluence document.
-- **tags** (array, optional): Tags or labels to add to the Confluence page.
+- **confluence_url** (string, required): the URL to where the doc will be stored
 
-## Example
-```yaml
-command: writetoconfluence
-confluenceSpace: "ENG"
-parentPageId: "123456" # optional
-title: "Design: New Feature X"
-tags: ["design", "spec-kit", "summary"] # optional
+## Command Template
+```
+/speckit.confluence.writetoconfluence [confluence_url]
 ```
 
 ## Notes

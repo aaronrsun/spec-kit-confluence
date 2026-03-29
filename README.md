@@ -21,15 +21,11 @@
 	```
 	This will configure the MCP server for Confluence access.
 
-## Usage
-After completing your planning, requirements gathering, and design discussions (before implementation begins), use the `writetoconfluence` command to generate a design document in Confluence:
+## Usage and Functionality
+After completing the specify and plan phases, run the `writetoconfluence` command. Be sure to include the URL to where you want the doc to be so the agent knows to write the doc there.
 
-```yaml
-command: writetoconfluence
-confluenceSpace: "ENG"
-parentPageId: "123456" # optional
-title: "Design: New Feature X"
-tags: ["design", "spec-kit", "summary"] # optional
+```
+/speckit.confluence.writetoconfluence [confluence_url]
 ```
 
 The agent will:

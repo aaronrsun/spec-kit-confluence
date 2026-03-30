@@ -4,14 +4,22 @@ description: Automatically summarize and consolidate all relevant content genera
 ---
 
 ## Usage and Functionality
-After completing the specify and plan phases, create a doc summarizing them in Confluence. If inital prompt did not provide any URL or provided one that does not lead to Atlassian Confluence, ask for valid one.
+Given a Atlassian Confluence URL, create a doc summarizing the generated specifications and plans after completing the specify and plan phases. If the user did not provide any URL or provided one that does not lead to Atlassian Confluence, ask for valid one.
+
+Additionally, if this command is being executed in the CLI, you may need to use an Atlassian API token and email address to access the site. If you cannot access Atlassian after about a minute or two, trying using the token and email address. Ask for them if not already provided.
+
+Please also be sure to log your updates and progress in the console as you go along.
 
 ## Parameters
 - **confluence_url** (string, required): the URL to where the doc will be stored
+- **atlassian_api_token** (string, required when using CLI): API token to connect to Atlassian when using CLI
+- **atlassian_email_address** (string, required when using CLI): the email address for your Atlassian account
 
-## Command Template
+### Input template
 ```
-/speckit.confluence.write [confluence_url]
+Confluence URL: [confluence_url]
+Atlassian API token: [atlassian_api_token] // if using CLI
+Atlassian email address: [atlassian_email_address] // if using CLI
 ```
 
 ## Notes

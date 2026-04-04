@@ -6,7 +6,7 @@ description: Automatically summarize and consolidate all relevant content genera
 ## Usage and Functionality
 Given a Atlassian Confluence URL, create a doc summarizing the generated specifications and plans after completing the specify and plan phases. If the user did not provide any URL or provided one that does not lead to Atlassian Confluence, ask for valid one.
 
-Additionally, if this command is being executed in the CLI, you may need to use an Atlassian API token and email address to access the site. If you cannot access Atlassian after about a minute or two, trying using the token and email address. Ask for them if not already provided.
+If this command is being executed in the CLI, you may need to use an Atlassian API token and email address to access the site. If you cannot access Atlassian after about a minute or two, trying using the token and email address. Ask for them if not already provided.
 
 Please also be sure to log your updates and progress in the console as you go along.
 

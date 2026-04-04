@@ -4,7 +4,7 @@ extension:
   id: "confluence"
   name: "Spec Confluence"
   version: "1.0.0"
-  description: "Integrates the pre-implementation steps into a Confluence doc"
+  description: "Create, read, and update Confluence docs for your project"
   author: "Aaron Sun"
   repository: "https://github.com/aaronrsun/spec-kit-confluence"
   license: "MIT"
@@ -16,7 +16,13 @@ provides:
   commands:
     - name: "speckit.confluence.write"
       file: "commands/write.md"
-      description: "Write pre-implementation steps to Confluence doc"
+      description: "Creates a Confluence doc summarizing the pre-implementation steps"
+    - name: "speckit.confluence.read"
+      file: "commands/read.md"
+      description: "Retrieves the contents of an existing Confluence page"
+    - name: "speckit.confluence.update"
+      file: "commands/update.md"
+      description: "Updates an existing Confluence doc with the latest specs and plans"
 
 tags:
   - "confluence"

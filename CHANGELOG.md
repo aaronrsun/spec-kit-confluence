@@ -18,3 +18,8 @@
 ### Added
 - `read` — Given a Confluence URL of a doc, fetches and displays the current contents of an existing page.
 - `update` — Given a Confluence URL of a doc, intelligently revises an existing page to reflect the latest specifications and plans without overwriting content wholesale.
+
+## [1.1.1] - 2026-04-06
+
+### Updated
+- Required speckit version in README.md from 1.0.0 to 0.1.0

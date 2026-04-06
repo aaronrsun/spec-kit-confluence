@@ -10,7 +10,7 @@
 - **MCP Integration:** Uses the MCP server to securely access Confluence across all commands.
 
 ## Prerequisites
-- [spec-kit](https://github.com/your-org/spec-kit) v1.0.0 or higher
+- [spec-kit](https://github.com/your-org/spec-kit) v0.1.0 or higher
 - A Confluence account with API access
 - MCP server credentials/configuration (`*/Code/User/mcp.json` or `*/github-copilot/intellij/mcp.json`)
 

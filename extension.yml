@@ -3,7 +3,7 @@ schema_version: "1.0"
 extension:
   id: "confluence"
   name: "Spec Confluence"
-  version: "1.0.0"
+  version: "1.1.1"
   description: "Create, read, and update Confluence docs for your project"
   author: "Aaron Sun"
   repository: "https://github.com/aaronrsun/spec-kit-confluence"
